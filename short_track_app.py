@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\evanl\OneDrive\Documents\Personal Projects\advanced short track stats 2026.csv")
+df = pd.read_csv("advanced short track stats 2026.csv")
 
 st.title("Advanced Short Track Stats 2026")
 
